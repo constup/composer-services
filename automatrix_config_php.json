@@ -1,0 +1,6 @@
+{
+    "projectPhpVersion": "DefaultVersion",
+    "declareStrictTypes": true,
+    "filePermissions": 777,
+    "transferConstants": true
+}

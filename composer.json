@@ -1,0 +1,29 @@
+{
+    "name": "constup/composer-services",
+    "description": "Composer related services.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Constup",
+            "email": "16638173+constup@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Constup\\ComposerServices\\": "src/",
+            "Constup\\Automatrix\\": "automatrix_core/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Constup\\ComposerServices\\Tests\\": "tests/",
+            "Constup\\Automatrix\\Tests\\": "automatrix_core/tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4.1",
+        "ext-json": "*"
+    }
+}
